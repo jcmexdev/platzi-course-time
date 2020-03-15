@@ -4,7 +4,8 @@ const moment = require('moment');
 const handleRequest = async platziCourseUrl => {
   const browser = await puppeteer.launch({
     headless: true,
-    defaultViewport: null
+    defaultViewport: null,
+    args: ['--no-sandbox']
   });
   const page = await browser.newPage();
   await page.goto(platziCourseUrl);
