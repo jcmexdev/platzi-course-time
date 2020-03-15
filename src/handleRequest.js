@@ -2,12 +2,16 @@ const puppeteer = require('puppeteer');
 const moment = require('moment');
 
 const handleRequest = async platziCourseUrl => {
+
+  const course_name = platziCourseUrl.substr(26,);
+
   const browser = await puppeteer.launch({
     headless: true,
     defaultViewport: null
   });
   const page = await browser.newPage();
-  await page.goto(platziCourseUrl);
+  const URL = `https://platzi.com/clases/${course_name}`
+  await page.goto(URL);
   const classes = await page.evaluate(async () => {
     const prefix = 'MaterialItem';
     const content = `${prefix}-content`;
