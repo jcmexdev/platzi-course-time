@@ -6,8 +6,9 @@ Clona el proyecto, entra al directorio y ejecuta el comando `npm install`
 
 ## Uso 
 
-1) Copiar la URL del curso que quieres saber la duración **la URL debe tener la lista de clases del curso como se muestra en la imagen inferior**
-![Imgur](https://i.imgur.com/eLRe0cF.png)
+1) Copiar la URL del curso que quieres saber el tiempo de duración, a continuación se muestran dos ejemplos:
+![Ejemplo de URL uno](https://i.imgur.com/BUnp1h3.png)
+![Ejemplo de URL dos](https://i.imgur.com/BBaxzXJ.png)
 
 2) En la terminal ejecutar el comando `npm run start` 
 3) El programa te pedirá la URL del curso, solo tienes que pegarla como se muestra en la imagen inferior. 
@@ -18,3 +19,5 @@ Esperas un poco y listo tendrás la duración del curso
 
 ## Cómo contribuir
 Cualquier mejora es bienvenida, solo manda tu PR y especifica cual es la mejora que deseas implementar, espero que este proyecto te ayude.
+
+## 
