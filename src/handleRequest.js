@@ -8,7 +8,8 @@ const handleRequest = async platziCourseUrl => {
   const browser = await puppeteer.launch({
     headless: true,
     defaultViewport: null,
-    args: ['--no-sandbox']
+    args: ['--no-sandbox'],
+    //executablePath:'/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe'
   });
   const page = await browser.newPage();
   const URL = `https://platzi.com/clases/${course_name}`

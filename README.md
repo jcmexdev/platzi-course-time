@@ -5,7 +5,10 @@ Este proyecto te ayuda a saber cuánto tiempo dura cualquier curso de Platzi, es
 ## Instalación
 
 Clona el proyecto, entra al directorio y ejecuta el comando `npm install`
-
+- **Solo para usuarios de WSL (Windows subsystem for Linux)**
+Si eres usuario de WSL abre el proyecto en el editor de tu preferencia, ve a la carpeta **src/** y en el archivo **handleRequest.js** descomenta la linea 12, esta linea agrega el path por defecto de Google Chrome en Windows para ser ejecutado por puppeter, si tu ruta de Google Chrome es diferente solo modifica la linea reemplazando la ruta de tu Google Chrome:
+`executablePath:'/mnt/c/tu_ruta_de_chrome_en_windows'`
+**Esta es una solución temporal para los usuarios de WSL**
 ## Uso
 
 1. Copiar la URL del curso que quieres saber el tiempo de duración, a continuación se muestran dos ejemplos:
@@ -26,3 +29,6 @@ Cualquier mejora es bienvenida, solo manda tu PR y especifica cual es la mejora 
 
 Se han identificado algunos cursos con los cuales no funciona este método, es el caso de algunos cursos de ingles, ya se esta trabajando para que funcione con la mayor cantidad de cursos posible.
 Si identificas algún curso con el cual no funcione por favor agrega un issue a este repositorio para solucionarlo.
+
+## Contacto
+Si necesitas ayuda para utilizar este proyecto mi twitter es [@jcmexdev](https://twitter.com/jcmexdev), contactame y te puedo ayudar.
