@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.25.1",
+    "moment": "^2.29.2",
     "prompt": "^1.0.0",
     "puppeteer": "^3.0.2"
   }
